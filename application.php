@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $message .= "Additional Information: $additionalInfo";
 
     // Set up the webhook URL
-    $webhookUrl = 'https://discord.com/api/webhooks/your-webhook-url'; // Replace with your actual Discord webhook URL
+    $webhookUrl = 'https://discord.com/api/webhooks/1126653930781290618/JPuierXslVFedQJJH4zB_pmW-yAlvF64qJEH2yvTF7Vx0nYRW5zOQnGfu22peI3l5-or'; // Replace with your actual Discord webhook URL
 
     // Prepare the request data
     $data = array('content' => $message);
